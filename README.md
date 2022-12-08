@@ -6,4 +6,5 @@ Reference:
 3. Forecasting methods in Excel:   
 https://www.inventory-planner.com/forecasting-in-excel/   
 https://www.youtube.com/watch?v=RoKGvvMJAME  
+https://www.youtube.com/watch?v=FsOjPCQo6IE
 
