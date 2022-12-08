@@ -1,6 +1,7 @@
 # Chapter3 Forecast sales
 
-## 1. Simple Forecast in excel
+## 1. Simple Forecast in excel  
+Actually this forecast is also a linear trend forecast, it is the same as calculating the intercept and slope  
 <img width="444" alt="image" src="https://user-images.githubusercontent.com/105503216/206354985-599054a2-2991-4026-af53-0c981251714c.png">
 
 ## 2. Seasonality and Trend Forecasting with linear regression
