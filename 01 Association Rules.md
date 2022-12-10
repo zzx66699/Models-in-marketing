@@ -19,16 +19,13 @@ We can also calculate the support of itemsets.
 ### 1.5 Frequent item sets 
 individual item sets that meet or exceed a given minimum support threshold.  
 
-### 1.6 Support between Frequent item sets 
-is an association rule that gives the probability that both frequent item sets (2 item sets) will happen in one transaction   
-
-
-
-### 1.5 Confidence
+### 1.6 Confidence
 Confidence({A} → {B}): If A happens, what the probability will B happens    
-it refers to a rule   
+I: frequent max-item set
+S: subset of I, 
+If Confidence (S -> (I-S)) > min_confidence, the S -> I-S is strong association rule  
 
-### 1.6 High confidence rules 
+### 1.7 High confidence rules 
 Confidence or meet or exceed a predefined confidence threshold.  
 
 
