@@ -29,7 +29,7 @@ If Confidence (S -> (I-S)) > min_confidence, the S -> I-S is strong association 
 Confidence or meet or exceed a predefined confidence threshold.  
 
 
-## 2. How to implement
+## 2. Example1: 
 ### 2.1 Step1: Find the frequent item sets (support of the item sets > min_support)   
 <img width="446" alt="image" src="https://user-images.githubusercontent.com/105503216/206842691-19c5ac6f-9cee-4cd3-8ef7-966eea32a0a6.png">
 
@@ -57,4 +57,19 @@ Because P(A) * P(B/A) = P(A, B)
 
 confidence (A implies B) = P (B/A) = P(A, B) / P(A)  
 
+## 3. Example2:
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/105503216/206858229-5ba8a920-6b76-4ec3-a32d-849e81e55f02.png">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/105503216/206858313-d5cd63b7-8f26-4823-bd23-1d9d49db13b1.png">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/105503216/206858322-e4b49d92-78a4-48de-86f7-57ed7e894e64.png">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/105503216/206858336-ee3dab3f-4202-4c1e-8f6e-095d2c3f7ca1.png">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/105503216/206858348-2411cb73-93e2-45e3-a9ef-046217b24d78.png">
 
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/105503216/206858357-82a4f857-5b9a-4941-87ab-233eff61a761.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/105503216/206858387-55485344-b2d0-4e4b-a562-5439bf7708fe.png"><img width="500" alt="image" src="https://user-images.githubusercontent.com/105503216/206858413-755a16db-e3bc-471a-af75-cd9890004374.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/105503216/206858425-89e424de-eec7-4dc5-9b19-710031103cea.png">
+
+<img width="699" alt="image" src="https://user-images.githubusercontent.com/105503216/206858440-771db5ad-4391-4c5b-bbc1-0840d88caccd.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/105503216/206858462-08766f64-f473-4033-9a7e-50adb0592ae0.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/105503216/206858475-202b0dd3-66b1-4c78-ae33-dc1789b2d627.png">
+<img width="683" alt="image" src="https://user-images.githubusercontent.com/105503216/206858425-89e424de-eec7-4dc5-9b19-710031103cea.png">
+<img width="683" alt="image" src="https://user-images.githubusercontent.com/105503216/206858425-89e424de-eec7-4dc5-9b19-710031103cea.png">
