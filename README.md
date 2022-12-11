@@ -6,6 +6,7 @@ https://towardsdatascience.com/a-quickstart-practical-guide-to-association-analy
 https://www.youtube.com/watch?v=43CMKRHdH30  
 https://towardsdatascience.com/association-analysis-explained-255823c1cf9a   
 https://www.youtube.com/watch?v=NT6beZBYbmU  
+https://www.youtube.com/watch?v=guVvtZ7ZClw  
 2. Cannibalization:  
 https://www.youtube.com/watch?v=-XaU8uNFAi8   
 3. Forecasting methods in Excel:   
