@@ -30,7 +30,8 @@ Confidence or meet or exceed a predefined confidence threshold.
 
 ### 1.8 Lift
 <img width="298" alt="image" src="https://user-images.githubusercontent.com/105503216/206885385-aa615156-8684-4baf-ab16-a38a2e907da1.png">  
-the denominator of formula representS the randomless occurance of A & B (as the multiply of occurance A and occurance B)  
+the denominator of formula representS the randomless occurance of A & B (as the multiply of occurance A and occurance B)    
+
 If lift < 0 : the occurance of randomness is more than occurance because of any association, so we don't need to spend any time on the particular rule we got  
 
 ## 2. Example1: 
