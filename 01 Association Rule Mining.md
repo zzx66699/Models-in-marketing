@@ -21,18 +21,34 @@ individual item sets that meet or exceed a given minimum support threshold.
 
 ### 1.6 Confidence
 Confidence({A} → {B}): If A happens, what the probability will B happens    
-I: frequent max-item set
-S: subset of I, 
-If Confidence (S -> (I-S)) > min_confidence, the S -> I-S is strong association rule  
+<img width="962" alt="image" src="https://user-images.githubusercontent.com/105503216/206946547-fca6bec1-268d-4c54-b098-5285bea3b59a.png">  
+![image](https://user-images.githubusercontent.com/105503216/206945069-b8a69e2a-8794-492d-8e73-763b0c3f54f4.png)
 
 ### 1.7 High confidence rules 
 Confidence or meet or exceed a predefined confidence threshold.  
+I: frequent max-item set
+S: subset of I, 
+If Confidence (S -> (I-S)) > min_confidence, the S -> I-S is strong association rule    
 
 ### 1.8 Lift
+#### 1.8.1 One interpretation (prefered)
+<img width="635" alt="image" src="https://user-images.githubusercontent.com/105503216/206947852-c1417178-3b9b-4041-88b3-0b84566c9802.png">   
+
+“The change (increase or decrease) in the probability of presence of Item 2 with the knowledge that the Item 1 is already present in the basket over probability of presence of Item 2 without the knowledge about the presence of Item 1 in the basket.”    
+
+If lift > 1, The probability of buying B with the knowledge of presence of A is higher than the probability of buying B without the knowledge about the presence of A.   
+
+ The presence of A increase the probability of buying B.
+
+#### 1.8.2 another interpretation 
 <img width="298" alt="image" src="https://user-images.githubusercontent.com/105503216/206885385-aa615156-8684-4baf-ab16-a38a2e907da1.png">  
 the denominator of formula representS the randomless occurance of A & B (as the multiply of occurance A and occurance B)    
 
-If lift < 0 : the occurance of randomness is more than occurance because of any association, so we don't need to spend any time on the particular rule we got  
+If lift < 1 : the occurance of randomness is more than occurance because of any association, so we don't need to spend any time on the particular rule we got    
+
+A lift ratio larger than 1.0 implies that the relationship between the antecedent and the consequent is more significant than would be expected if the two sets were independent.   
+
+The larger the lift ratio, the more significant the association.   
 
 ## 2. Example1: 
 ### 2.1 Step1: Find the frequent item sets (support of the item sets > min_support)   
@@ -76,4 +92,5 @@ There are 3 frequent 3-item set, so we need to calculate the confidence respecti
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/105503216/206858462-08766f64-f473-4033-9a7e-50adb0592ae0.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/105503216/206858475-202b0dd3-66b1-4c78-ae33-dc1789b2d627.png">
 
-## 4. Example3:
+## 4. How to shortlist association   
+<img width="748" alt="image" src="https://user-images.githubusercontent.com/105503216/206948555-2c86b0c0-0218-44cb-b67e-7b700213e506.png">
